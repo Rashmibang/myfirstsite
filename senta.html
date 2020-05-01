@@ -1,0 +1,620 @@
+<html>
+<head>
+    <script src="https://kit.fontawesome.com./c002ef5785.js" crossorigin="anonymous"></script>
+    <title>
+        senta
+    </title>
+</head>
+<style>
+    body,
+    html {
+        padding: 0px;
+        margin: 0px;
+        font-family: sans;
+    }
+
+    .header h3 {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        margin-left: 50px;
+    }
+
+    .header h4{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .header {
+        justify-content: space-between;
+        background-color: #333;
+		font-family:"OpenSans", sans-serif;
+		font-size:14px;
+        position: fixed;
+		display: flex;
+      	width: 100%;
+      z-index: 1;
+    }
+
+    .header li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .background {
+        background-image: url('https://www.senta.co/images/home-top.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 600px;
+	}
+
+
+    .center {
+        text-align: center;
+        font-weight: light;
+		font-family: "OpenSans", sans-serif;
+        color: #333;
+        margin: auto;
+        width: 60%;
+        padding: 60px;
+
+    }
+
+    .align h3 {
+        text-align: center;
+        color: Gray;
+        margin: 0px;
+        font-weight: normal;
+    }
+
+
+    .main {
+        background-color: LightGray;
+        text-decoration: none;
+    }
+
+    .contents {
+        text-align: center;
+        padding: 5px;
+		font-weight: bold;
+        font-family: sans-serif;
+        color: #333;
+        text-decoration: none;
+    }
+
+    .row1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content {
+        text-align: left;
+        width: 25%;
+        margin: 6%;
+    }
+
+    .content1 {
+        text-align: center;
+        width: 25%;
+        margin: 6%;
+    }
+
+    .content2 {
+        text-align: right;
+        width: 25%;
+        margin: 6%;
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content3 {
+        text-align: left;
+        width: 25%;
+        margin: 6%;
+    }
+
+    .content4 {
+        text-align: center;
+        width: 25%;
+        margin: 6%;
+    }
+
+    .content5 {
+        text-align: right;
+        width: 25%;
+        margin: 6%;
+    }
+
+    .inner {
+        text-align: center;
+
+    }
+
+    .button {
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        font-size: 16px ;
+		cursor: pointer;
+    }
+
+    .accent-title {
+        font-size: 2em;
+        font-weight: 100;
+        color: #f97;
+		font-weight:lighter;
+    }
+
+    .bottom{
+		background-color:#333;
+		padding:20px;
+		word-spacing:0px;
+		font-size:80%;
+	}
+
+	.overlay {
+           	position: absolute;
+             padding: 20px;
+             color: white;
+             background: rgba(0, 0, 0, 0.5);
+             right: 15%;
+             bottom: 20%;
+			 left:50%;
+			 font-family:sans-serif;
+			 text-align:center;
+			 
+    }
+		   
+	.circle{
+			position: absolute;
+            padding: 20px;
+			right: 10%;
+            bottom: 60%;
+			left:50%;
+			height:20%;
+			width:30%;
+			text-align:right;
+	}
+		   
+    .aligns{
+			font-family:sans-serif;
+			padding:25px;
+			font-size:200%;
+			text-align:center;
+	        color:Gray;
+			
+	}
+	.ends{
+			background-color:gray;
+			padding:10px;
+			display:flex;
+			flex-direction:row;
+			font-family:"OpenSans", sans-serif;
+		}
+	a:hover {
+			text-decoration: underline;
+			cursor: pointer;
+	}
+	i:hover {
+			color: blue ;
+			cursor: pointer;
+    }
+  
+  
+			
+	.first {
+        text-align:left;
+        width: 25%;
+		margin-left:10%;
+		
+    }
+	
+	.second {
+       width: 25%;
+   }
+
+	.third {
+        
+        width: 25%;
+    }
+	.fourth {
+       width: 25%;
+       }
+	   
+	a:link{
+			text-decoration:none;
+			color:white;
+			font-family:sans-serif;
+	}
+	
+	a:hover{
+			text-decoration: underline;
+			cursor: pointer;
+	}
+
+	.info{
+			display:flex;
+			flex-direction:row;
+	}
+	.sectionone{
+				text-align:left;
+				margin:5%;
+				width:50%;
+	}
+
+	.sectiontwo{
+				margin:5%;
+				width:40%;
+	}
+	.round-button {
+          	border-radius: 50%;
+          	height: 10px;
+            width: 10px;
+            border: none;
+            background-color: gray;
+    }
+  .pricing {
+			margin-top:20%;
+			margin-left:60%;
+            font-size: 72px;
+            color: white;
+            background: blue;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+	}
+	.middle{
+			margin-top:5%;
+			text-align:center;
+			margin-left:30%;
+	}
+	.block4{
+			text-align:center;
+	}
+	.row2{
+			margin-left:20%;
+	}        
+
+</style>
+
+<body>
+
+    <div>
+        <div class="header">
+            <!-- this is a parent flex with space between -->
+            <div>
+                <!-- this will be shown in left -->
+                <h3><img src="https://www.senta.co/assets/images/Senta-Logo-Landscape-On-grey-RGB.png" height="40px" width="60px" /></h3>
+            </div>
+            <div>
+                <!-- this will be shown in right -->
+                <ul>
+                    <li>
+                        <h4>Home</h4>
+                    </li> <!-- all list items are inline block -->
+                    <li>
+                        <h4>Features</h4>
+                    </li>
+                    <li>
+                        <h4>Pricing</h4>
+                    </li>
+                    <li>
+                        <h4>Support</h4>
+                    </li>
+                    <li>
+                        <input class="button" type="button" value="Try for free" />
+                    </li>
+                    <li>
+                        <h4><span>United Kingdom</span></h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="background">
+		
+		<div class="circle">
+		<img src="https://www.senta.co/images/AE_Practice-Management-Software-Winner-Light.png" alt="Winner of Accounting Excellence Practice Management Software 2019">
+        </div>
+		
+          <div class="overlay"><h2>Senta® Practice Management</h2>
+<p>Cloud-based CRM, marketing, workflow, email automation, secure documents and insights for accountants and bookkeepers.
+
+Try Senta now, free for 30 days. No credit card required.</p>
+<input class="button" type="button" value="4:00 demo" />
+<input class="button" type="button" value="Try for free" />
+          </div>
+            <!--<img src="https://www.senta.co/images/home-top.jpg"/>-->
+        </div>
+
+        <div class="align">
+            <div class="center">
+                <h2 class="accent-title"> Senta powers up your practice</h2>
+                <!-- TODO this should be a p tag, h1,2,3..6 are used for headings -->
+                <p>With an easy-to-configure CRM, powerful workflow, integrations and our best client portal yet, Senta
+                    practice management
+                    lets you power up your accountancy or bookkeeping practice. We'll help you grow your firm and give
+                    great service to your clients every time.</p>
+                <p>Whether you're looking to operate efficiently at scale or growing a unique practice culture dedicated
+                    to service, Senta will help you
+                    automate your work and give you all the information you need.</p>
+
+            </div>
+        </div>
+        <div class="main">
+            <div class="contents">
+                <h1>Senta integrates with you<h1>
+            </div>
+            <div class="row1">
+                <div class="content">
+                    <div class="inner">
+
+                        <i class="fas fa-cloud" style="color:gray; font-size:50px;"></i>
+                        <h5>Work seamlessly with client data</h5>
+                        <p>Bring live client data into the heart of your practice, from the world's best online
+                            accounting applications.</p>
+                    </div>
+                </div>
+
+                <div class="content1">
+                    <i class="fa fa-chart-pie" style="color:gray; font-size:50px;"></i>
+                    <h5>Deliver key practice insights</h5>
+                    <p>Drive client satisfaction, and understand practice performance and the true value of your
+                        clients.</p>
+                </div>
+
+                <div class="content2">
+                    <div class="inner">
+                        <i class="fas fa-chart-line" style="color:gray; font-size:50px;"></i>
+                        <h5>Increase practice value</h5>
+                   
+                    <p>Grow your practice, clarify your service delivery, and maximise your IT infrastructure.</p>
+                </div>
+            </div>
+			</div>
+
+            <div class="row2">
+                <div class="content3">
+                    <div class="inner">
+                        <i class="fas fa-balance-scale" style="color:gray; font-size:50px ;"></i>
+                        <h5>Manage compliance risk</h5>
+                        <p>Stay in control with adaptable workflows, secure communication and documents, and clarity
+                            around managing financial administration.</p>
+                    </div>
+                </div>
+
+                <div class="content4">
+                    <i class="fas fa-thumbs-up" style="color:gray; font-size:50px;"></i>
+                    <h5>Create your practice culture</h5>
+                    <p>Work the way you, your staff and clients want to, with flexible, remote and subcontractor
+                        working.</p>
+                </div>
+
+                <div class="content5">
+                    <div class="inner">
+                        <i class="fas fa-trophy" style="color:gray; font-size:50px;"></i>
+                        <h5>Raise the client service bar</h5>
+                        <p>Senta helps you exceed your clients' expectations, pre-empt requirements, and reinforce your
+                            reputation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<div class="block4">
+  	<div class="row1">
+      <div class="round-price">
+      	<div class="pricing">
+          <div>£29</div>
+         </div>
+      </div>
+      <div class="side-message">
+      	
+        <div class="middle">
+        <h3>What's included in this price?
+            <h1 style="color:blue"> Everything.</h1>
+				</h3>
+        <h5>There are no hidden extras, no record limits and no per-module charges.Our simple,monthly fee gives you free upgrades for life and free access for your clients too.</h5>
+				<input class="button" type="button" value="Try for free" />
+		</div>
+        </div>
+  	</div>
+  	<div class="row2">
+      		<p style="font-style:italic";>£29/user/month, billed month-to-month. 20% discount for annual payment, £23.20. Reduced pricing for extra users. Prices are in Sterling, excluding VAT</p>			  
+    </div>
+ 
+</div>
+	 <div class="main">
+        <div class="contents">
+            <h1>Features<h1>
+        </div>
+        <div class="row1">
+
+            <div class="content">
+                <div class="inner">
+                    <i class="fas fa-users" style="color:gray; font-size:50px;"></i>
+                    <h3>CRM</h3>
+                    <p>Everything you need to manage your customer relationships... without the complexity.</p>
+                    <a href="#" style="color:black">Learn more</a>
+                </div>
+            </div>
+
+            <div class="content1">
+                <i class="fa fa-tasks" style="color:gray; font-size:50px;"></i>
+                <h3>Workflow & Tasks</h3>
+                <p>Ready-to-go workflow automation that lets you operate effectively.</p>
+                <a href="#"style="color:black">Learn more</a>
+            </div>
+
+            <div class="content2">
+                <div class="inner">
+                    <i class="fa fa-file" style="color:gray; font-size:50px;"></i>
+                    <h3>Documents</h3>
+                
+                <p>No need for extra document management systems. Senta includes a secure document portal, with
+                    unlimited eSigning.</p>
+                <a href="#"style="color:black">Learn more</a>
+            </div>
+        </div>
+		</div>
+
+        <div class="row2">
+            <div class="content3">
+                <div class="inner">
+                    <i class="fas fa-envelope" style="color:gray; font-size:50px;"></i>
+                    <h3>Email & SMS</h3>
+                    <p>Senta includes a flexible mailer to help you with marketing & it works with Gmail, Exchange,
+                        Office 365 and others.</p>
+                    <a href="#"style="color:black">Learn more</a>
+                </div>
+            </div>
+
+            <div class="content4">
+                <i class="fas fa-heart" style="color:gray; font-size:50px;"></i>
+                <h5>Integrations</h5>
+                <p>Senta effortlessly hooks into FreeAgent, QuickBooks, Xero, Companies House, GoCardless and more of
+                    your favourite products..</p>
+                <a href="#"style="color:black">Learn more</a>
+            </div>
+
+            <div class="content5">
+                <div class="inner">
+                    <i class="fas fa-sitemap" style="color:gray; font-size:50px;"></i>
+                    <h3>Plus more</h3>
+                    <p>Senta really does give you everything you need to run your practice.</p>
+                    <a href="#" style="color:black">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class ="aligns">
+      	<style>
+          
+        </style>
+        <div id="message"></div>
+
+        <button class="round-button" onclick="f1()"></button>
+        <button  class="round-button"onclick="f2()"></button>
+        <button class="round-button"onclick="f3()" ></button>
+        <button  class="round-button"onclick="f4()"></button>
+        <button  class="round-button" onclick="f5()" ></button>
+        <button class="round-button" onclick="f6()" ></button>
+        <button  class="round-button"onclick="f7()" ></button>
+        <button  class="round-button"onclick="f8()" ></button>
+        <button class="round-button" onclick="f9()"></button>
+        <button class="round-button" onclick="f10()" ></button>
+        <button class="round-button" onclick="f11()"></button>
+     </div>
+
+    <div class="info">
+	<div class="sectionone">
+       <h3> 4:00 demo</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lNmTPciyoPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>Want to learn more? Watch a quick 4-minute demo of Senta.</p>
+</div>
+<div class="sectiontwo" >
+<h3>Brochure download</h3>
+<img src="brochure.png"><br>
+<p>Want to read up offline or send details to a colleague? Our PDF brochure will tell you more.</p>
+ <a href="#" style="color:black">Download brochure (PDF, 300kB)</a>
+ </div>
+    </div>
+
+<div class="ends">
+<div class="first">
+<p style="color:white">Contact</p>
+ <a href="#">Support ticket</a><br>
+  <a href="#">0117 456 3000</a><br>
+ <a href="#"> hello@senta.co</a>
+ </div>
+ 
+ <div class="second">
+<p style="color:white">About us</p>
+ <a href="#>About Senta</a><br>
+  <a href="#">Cloud software</a><br>
+ <a href="#">Senta blog</a><br>
+<a href="#">Contact us</a>
+ </div>
+ 
+ <div class="third">
+<p style="color:white">Connect with us</p>
+<i class="fa fa-linkedin-in" style=" font-size:30px;"></i>
+ <i class="fas fa-envelope" style=" font-size:30px;"></i>
+ <i class="fa fa-twitter" style=" font-size:30px;"></i>
+ <i class="fa fa-facebook" style=" font-size:30px;"></i>
+</div>
+<div class="fourth">
+<img src="https://www.senta.co/images/AE_Practice-Management-Software-Winner-Email-Light.png">
+</div>
+</div>
+
+<div class="bottom">
+<a href="#">Copyright 2016-2020 Senta &nbsp &nbsp &nbsp</a>
+<a href="#">"Senta" is a registered trademark &nbsp &nbsp &nbsp</a>
+<a href="#">Terms & Conditions &nbsp &nbsp &nbsp</a>
+<a href="#">Privacy Policy &nbsp &nbsp &nbsp</a>
+<a href="#">Corporate details &nbsp &nbsp &nbsp</a>
+</div>
+</body>
+<script>
+    function f1() {
+        document.getElementById("message").innerText = "Run your practice well with easy, repeatable workflows for client take-on and ongoing work.";
+		}
+
+ function f2() {
+        document.getElementById("message").innerText = "Easily customise your client and contact records, with extra fields, lookups or any other data.";
+		}
+		
+		 function f3() {
+        document.getElementById("message").innerText = "Put your client services on rails and increase customer referrals.";
+		}
+		
+		 function f4() {
+        document.getElementById("message").innerText = "Keep all client data, including job and task notes & documents in one place..";
+		}
+		
+		 function f5() {
+        document.getElementById("message").innerText = "Enhance the value of your practice by demonstrating the relationship with your clients.";
+		}
+		
+		 function f6() {
+        document.getElementById("message").innerText = "Reduce regulatory risk by storing client documents securely and effectively..";
+		}
+		
+		 function f7() {
+        document.getElementById("message").innerText = "Easily customise your services and workflows to truly express your practice's culture.";
+		}
+		
+		 function f8() {
+        document.getElementById("message").innerText = "Access documents anywhere and allow flexible working in a secure and controlled way.";
+		}
+		
+		 function f9() {
+        document.getElementById("message").innerText = "Put your clients' financial data at the heart of your practice, with Quickbooks, FreeAgent & Xero integrations..";
+		}
+		
+		 function f10() {
+        document.getElementById("message").innerText = "Effortlessly manage your client relationships, with Gmail, Exchange & Office 365 integrations.";
+		}
+		
+		 function f11() {
+        document.getElementById("message").innerText = "Don't rely on unsecure email: securely transfer documents between client & practice.";
+		}
+</script>
+</html>
